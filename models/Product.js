@@ -7,17 +7,42 @@ const sequelize = require('../config/connection');
 class Product extends Model {}
 
 // set up fields and rules for Product model
-Product.init(
-  {
+Product.init({
     // define columns
-  },
-  {
+    // id
+    /*
+     * integer
+     * doesn't allow null values
+     * primary key
+     * uses auto increment
+     */
+    // product_name
+    /*
+     * string
+     * doesn't allow null values
+     */
+    // price 
+    /*
+     * decimal
+     * doesn't allow null values
+     * validates that value is a decimal
+     */
+    // stock
+    /*
+     * integer
+     * doesn't allow null values'
+     */
+    // category_id
+    /*
+     * integer
+     * references the categories model's id
+     */
+}, {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'product',
-  }
-);
+});
 
 module.exports = Product;
