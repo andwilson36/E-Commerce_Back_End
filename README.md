@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # E-Commerce_Back_End
-Building the back-end for a e-commerce site using ORM. Using URL routes the user can see the stock, add to stock, delete stock or create new stock.
+Building the back-end for a e-commerce site using ORM. Using URL routes the user can see the stock, add to stock, delete stock or create new stock, all through the back-end routes.
 
 ## Table of Contents
 
