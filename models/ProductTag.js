@@ -5,24 +5,26 @@ const sequelize = require('../config/connection');
 class ProductTag extends Model {}
 // Allow products to have multiple tags and tags to have many products by using the ProductTag through model.
 ProductTag.init({
-    // define columns
-    // id
-    /*
-     * integer
-     * doesn't allow null values
-     * primary key
-     * uses auto increment
-     */
-    // product_id
-    /*
-     * integer
-     * references the product model's id
-     */
-    // tag_id
-    /*
-     * integer
-     * references the tag model's id
-     */
+    id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    stock: {
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'product',
+            key: 'id',
+        },
+    },
+    tag_id: {
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'tag',
+            key: 'id',
+        },
+    }
 }, {
     sequelize,
     timestamps: false,
