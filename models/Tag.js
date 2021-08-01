@@ -5,18 +5,15 @@ const sequelize = require('../config/connection.js');
 class Tag extends Model {}
 // Tag belongs to many Product models. 
 Tag.init({
-    // define columns
-    // id
-    /*
-     * integer
-     * doesn't allow null values
-     * primary key
-     * uses auto increment
-     */
-    // tag_name
-    /*
-     * string
-     */
+    id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    tag_name: {
+        type: DataTypes.STRING,
+    },
 }, {
     sequelize,
     timestamps: false,
