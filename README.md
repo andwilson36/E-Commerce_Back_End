@@ -22,15 +22,17 @@ Building the back-end for a e-commerce site using ORM. Using URL routes the user
 ## Media
 This is a short video on how to use the application:
 
-Link to video: https://drive.google.com/file/d/1aAbNZL513ydNIQVmpkuGytPXO3O5QXB0/view?usp=sharing
+Link to video: https://drive.google.com/file/d/1gBaHGiBzyW8NsOl8K2EM5nHx09tegONG/view
 
-https://user-images.githubusercontent.com/71351474/126408613-ccaecb15-021b-4f95-add1-280265463ed4.mp4
+https://user-images.githubusercontent.com/71351474/127757523-958ad1a7-78d8-4a39-b65c-e9654e4eee62.mp4
 
-This snippet shows how after making a employee it prompts a menu and will navigate the user to where they selected. 
-![](/images/prompt_menu.png)
+This snippet shows the ORM in use.
 
-This snippet shows the objects being shifted out of the array and the cards being put in the HTML file.
-![](/images/array.png)
+![](/assets/ORM.png)
+
+This snippet shows the PUT and DELETE routes of one of the models.
+
+![](/assets/routes.png)
 
 ## License
 The source code is licensed under MIT.
