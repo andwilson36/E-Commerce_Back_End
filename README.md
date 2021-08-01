@@ -5,86 +5,18 @@ Building the back-end for a e-commerce site using ORM. Using URL routes the user
 
 ## Table of Contents
 
-**[Instructions](#Instructions)**<br>
 **[Objectives](#Objectives)**<br>
 **[Media](#Media)**<br>
 **[License](#License)**<br>
 
-## Instructions
-
-This is a step-by-step walk-through of how to work the command line to get the result you want.
-
-### Start
-```
-node index.js
-```
-
-```
-Name of manager
-```
-
-```
-Manager's employee ID
-```
-
-```
-Manager's email address
-```
-
-```
-Manager's office number
-```
-### Engineer
-```
-Engineer's name
-```
-
-```
-Engineer's employee ID
-```
-
-```
-Engineer's email
-```
-
-```
-Engineer's GitHub username
-```
-### Intern
-```
-Intern's name
-```
-
-```
-Intern's employee ID
-```
-
-```
-Intern's email
-```
-
-```
-Intern's GitHub username
-```
-### End
-After creating a employee you can select the 'finish team' option from the menu to stop taking input and return the HTML profile.
-```
-Finish team
-```
-You can also refer to the [media](#Media) section for a video demo.
-
 ## Objectives
 
 ```
-✔️ Prompts user for imformation to be entered about certain employee.
+✔️ User can apply all CRUD methods to data.
 
-✔️ Tests the employee objects to return data entered.
+✔️ Used ORM practices.
 
-✔️ Creates a HTML file baised on the information entered by user.
-
-✔️ File structure is organized and HTML file generated goes into folder with css.
-
-✔️ Makes a link for the users GitHub account and opens email with the employees email in the 'To' section.
+✔️ Server can be ran without errors.
 ```
 
 ## Media
